@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Bebas;
+  font-style: normal;
+  src: url("../fonts/bebas/BEBAS___.ttf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: FiraSansMedium;
+  font-style: normal;
+  src: url("../fonts/fira-sans/FiraSans-Medium.otf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: FiraSansSemibold;
+  font-style: normal;
+  src: url("../fonts/fira-sans/FiraSans-SemiBold.otf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+.skills {
+  margin-bottom: 5%;
+}
+
+.controls {
+  top: 15%;
+  position: absolute;
+}
+
+.controls li > button {
+  text-shadow: 0 0 1px rgba(51,51,51,0.2) 2;
+  font-family: FiraSansSemibold;
+  letter-spacing: 1px;
+  width: 65%;
+  font-size: 1.5vh;
+}
+
+.controls li > h2 {
+  text-shadow: 0 0 1px rgba(51,51,51,0.2) 2;
+  font-family: FiraSansSemibold;
+  letter-spacing: 1px;
+  margin-left: 15%;
+  color: #fff;
+}
+
+.infoBlock {
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 8px;
+  font-size: 5vh;
+}
+
+.langContent {
+  text-align: center;
+  font-size: 3.3vh;
+}
+
+.columns.mix {
+  width: 25%;
+  margin-bottom: 3%;
+}
+
+.langs .progress {
+  width: 90%;
+  margin: 5% 0% 2% 5%;
+}
+
+.second #Container .mix {
+  display: none;
+}
+
+.row.langs {
+  max-width: 95rem !important;
+}

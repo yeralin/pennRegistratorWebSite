@@ -1,0 +1,19 @@
+{
+  "name": "personal-spa",
+  "version": "1.0.0",
+  "description": "To download right plugins for this project, you need: 1. Node.js 2. GulpJS (sudo npm install gulp -g)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaniyarYeralin/personal-spa.git"
+  },
+  "author": "Daniyar Yeralin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniyarYeralin/personal-spa/issues"
+  },
+  "homepage": "https://github.com/DaniyarYeralin/personal-spa"
+}

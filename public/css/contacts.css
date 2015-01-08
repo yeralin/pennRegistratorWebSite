@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Bebas;
+  font-style: normal;
+  src: url("../fonts/bebas/BEBAS___.ttf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: FiraSansMedium;
+  font-style: normal;
+  src: url("../fonts/fira-sans/FiraSans-Medium.otf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: FiraSansSemibold;
+  font-style: normal;
+  src: url("../fonts/fira-sans/FiraSans-SemiBold.otf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: GothamNarrowLight;
+  font-style: normal;
+  src: url("../fonts/gotham/GothamNarrow-Light.otf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+.contacts .content {
+  text-align: center !important;
+  margin-top: 15%;
+}
+
+a {
+  color: #fff !important;
+}
+
+.contacts .bar.animated {
+  margin-right: 25%;
+  margin-top: 5%;
+}
+
+.contacts .bar {
+  border-radius: 2px;
+  margin-right: 25%;
+  margin-top: 5%;
+  height: 231px;
+  width: 0px;
+  margin: 0 auto;
+}
+
+.contacts .bar > .barText {
+  display: none;
+  position: absolute;
+  right: 0%;
+}
+
+.contacts .bar > .barText > ul {
+  width: 396px;
+}
+
+.contacts .bar > .barText > ul > li {
+  font-weight: normal;
+  word-spacing: 0vh;
+  line-height: 2.1vh;
+  text-shadow: 0 0 1px rgba(51,51,51,0.2) 2;
+  font-family: GothamNarrowLight;
+  padding: 5% 0% 0% 15%;
+  height: 70px;
+  text-align: left;
+  font-size: 2vh;
+  font-weight: 900;
+  background-color: #000 #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.contacts .bar > .barText > ul > li > a a:hover a:focus a:link {
+  color: #fff !important;
+}
+
+.contacts .bar > .barText > ul > li:first-child {
+  border-top-style: none;
+  padding-top: 3%;
+  padding-bottom: 20%;
+}
+
+.contacts .bar > .barText > ul > li:last-child {
+  height: 70px;
+}
+
+.contacts .bar > .barText > ul > li:hover {
+  background-color: #c9af6d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contacts .bar > .barText > .icon-bar {
+  top: -2%;
+  left: 6%;
+  position: absolute;
+  background-color: rgba(0,0,0,0);
+  float: right;
+}
+
+.contacts .bar > .barText > .icon-bar > a:nth-child(2) {
+  margin-top: 25%;
+}
+
+.contacts .bar > .barText > .icon-bar > * i {
+  color: #fff;
+}
+
+.contacts #first {
+  width: 101%;
+  height: 101%;
+  z-index: -1 !important;
+  opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+  background-color: #000;
+}
+
+.contacts #second {
+  width: 101%;
+  height: 101%;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  z-index: -2 !important;
+}

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Bebas;
+  font-style: normal;
+  src: url("../fonts/bebas/BEBAS___.ttf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: FiraSansMedium;
+  font-style: normal;
+  src: url("../fonts/fira-sans/FiraSans-Medium.otf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: FiraSansSemibold;
+  font-style: normal;
+  src: url("../fonts/fira-sans/FiraSans-SemiBold.otf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: GothamNarrowLight;
+  font-style: normal;
+  src: url("../fonts/gotham/GothamNarrow-Light.otf");
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+}
+
+.main .intro {
+  padding-left: 28%;
+  padding-top: 7%;
+  width: 100%;
+}
+
+.main #first {
+  width: 101%;
+  height: 101%;
+  z-index: -1 !important;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  background-color: #2c3e50;
+}
+
+.main #second {
+  width: 101%;
+  height: 101%;
+  background-image: url("../img/alm-mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -2 !important;
+}
