@@ -3,7 +3,6 @@
 abs = absolute
 
 html
-	-webkit-font-smoothing: antialiased
 	height 100% //1366px
 	width 100% //1080px
 
@@ -12,19 +11,25 @@ html
 	margin-left 1.2%
 	fontSetUpper()
 
-.midnightHeader.first
-	background none
-	color white
-	text-align center
-	h
-		color #2c3e50
-
-.midnightHeader.second
-	background none
-	color black
-	text-align center
-	h
-		color black
+.agreement
+	display none
+	fontSetGothamLight()
+	h3
+		text-align center
+	.agreeCheck
+		height 10%
+		text-align center
+		p
+			display inline-block
+		.fLink
+			transition 0.8s
+			pointer-events none
+			color #C8C8C8
+			fontSetUpper()
+			font-size 1.6em
+			display inherit
+.midnightHeader
+	height 100%
 
 .content
 	width 100%

@@ -21,6 +21,7 @@ gulp.task('stylus', function() {
         .pipe(stylus({use: [nib()]})) // собираем stylus
     .on('error', console.log) // Если есть ошибки, выводим и продолжаем
     .pipe(myth()) // добавляем префиксы - http://www.myth.io/
+    .pipe(csso()) // минимизируем css
     .pipe(gulp.dest('./public/css/')) // записываем css
     .pipe(livereload(server)); // даем команду на перезагрузку css
 });
@@ -38,7 +39,9 @@ gulp.task('jade', function() {
 
 //Собираем JS
 gulp.task('js', function() {
-    gulp.src('./assets/js/**/*.js')
+    gulp.src(['./assets/js/**/*.js','!./assets/js/vendor/**/*.js'])
+    .pipe(concat('all.js'))
+    .pipe(uglify())
     .pipe(gulp.dest('./public/js'))
     .pipe(livereload(server)); // даем команду на перезагрузку страницы
 });

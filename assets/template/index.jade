@@ -1,17 +1,22 @@
 html(lang='en' ng-app="pageController")
 	head
 		meta(charset='utf-8')
-		title Single Page App
+		title Penn State Registrator
+		link(rel="icon" type="image/png" href="https://cdn4.iconfinder.com/data/icons/humility-icons-MERGE/48x48/emblems/emblem-web.png")
 		include add/_css
 		include add/_js
 	body
 		nav.fixed
-			.logo Penn State 
-				h Registrator
+			.logo
+				h.left Penn&nbsp;State
+				h.right Registrator
 		include blocks/spa
+			.agreement
+				h3 Agreement
+				p &emsp; By checking "I agree", you acknowledge that the software is provided "as is" and will be used on your own risk. Also you are not allowed to make any kind of profit from it.
+				.agreeCheck
+					input.checkButton(type="checkbox" name="agreement" value="false")
+					p#agree I agree
+					a.fLink(href="./dist/dist.rar") Download
 
-		<script src="js/classie.js"></script>
 		<script src="js/foundation.min.js"></script>
-		<script src="js/borderMenu.js"></script>
-		<script src="js/parallax.js"></script>
-		<script src="js/bottomScript.js"></script>
